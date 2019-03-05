@@ -3,6 +3,9 @@
         "jest": true
     },
     "extends": "airbnb-base",
+    "globals": {
+        "localStorage": true
+    },
     "rules": {
         "arrow-body-style": "off",
         "no-underscore-dangle": [
