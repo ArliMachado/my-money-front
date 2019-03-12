@@ -21,6 +21,7 @@ const submit = (values, url) => {
 const login = (values) => {
   return submit(values, `${consts.OAPI_URL}/login`);
 }
+
 const signup = (values) => {
   return submit(values, `${consts.OAPI_URL}/signup`);
 };
@@ -43,6 +44,6 @@ const validateToken = (token) => {
   };
 };
 
-export default {
+export {
   login, signup, logout, validateToken,
 };
